@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  color: black;
+  height: 10vh;
+  width: 99vw;
+}
+.navbar ul{
+  list-style: none;
+
+}
+
+.logo h2{
+  color: #2b2f30;
+}
+
+.navbar-ul li{
+  font-size: 1.2rem;
+  color: #3f3f44;
+}
+
+
+.nav-link{
+  cursor: pointer;
+}
+
+/* Landing-page */
+.Landing-page{
+  width: 35vw;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+}
+.Landing-head{
+  font-size: 4rem;
+  color: #2b2f30;
+}
+
+.Landing-page p{
+  font-size: 1.5rem;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+
+
+/* home page */
+.image-container {
+  overflow: hidden;
+  border-bottom-left-radius: 50px; /* Adjust for desired curve */
+  border-bottom-right-radius: 50px; /* Adjust for desired curve */
+}
+
+.rounded-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home-page{
+  background-color: #fafafa;
+}
