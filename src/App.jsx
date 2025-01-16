@@ -11,20 +11,20 @@ function App() {
 
 
   return (
-    <div className="">
-      <div className="" style={{ position: "absolute" }}><Navbar /></div>
+    <div className="" style={{backgroundColor:"#fafafa"}}>
+      <div className="" style={{ position: "fixed" }}><Navbar /></div>
 
       <section id="home">
         <Home />
       </section>
 
-      <secction id="store">
+      <section id="store">
         <Plants />
-      </secction>
+      </section>
 
-      <secction id="about-us">
+      <section id="about-us">
         <Footer />
-      </secction>
+      </section>
 
 
 
